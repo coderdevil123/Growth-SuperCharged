@@ -873,222 +873,11 @@ function DynamicHeadline({ text }) {
     }, this);
 }
 }),
-"[project]/components/Hero/Hero.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/components/Hero/Hero.tsx [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>Hero
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Hero$2f$DynamicHeadline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Hero/DynamicHeadline.tsx [app-ssr] (ecmascript)");
-"use client";
-;
-;
-;
-;
-;
-;
-if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-;
-const HEADLINES = [
-    "Power Up Your Potential",
-    "Scale Up Your Revenue",
-    "Amp Up Your Growth"
-];
-function Hero() {
-    const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
-    const heroRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const t = setInterval(()=>setIndex((p)=>(p + 1) % HEADLINES.length), 3200);
-        return ()=>clearInterval(t);
-    }, []);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        ref: heroRef,
-        className: "relative overflow-hidden pt-24",
-        style: {
-            background: "linear-gradient(to bottom, #0F172A 0%, #071023 70%, #0a3d2e 100%)"
-        },
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center relative z-10",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl md:text-6xl font-extrabold leading-tight",
-                                style: {
-                                    color: "#FFFFFF"
-                                },
-                                children: [
-                                    "Growth",
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            color: "#10B981"
-                                        },
-                                        children: "SuperCharged"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Hero/Hero.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Hero/Hero.tsx",
-                                lineNumber: 40,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-3 text-lg font-medium",
-                                style: {
-                                    color: "#34D399"
-                                },
-                                children: "Own The Edge"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Hero/Hero.tsx",
-                                lineNumber: 44,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-6",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-2xl md:text-3xl font-semibold h-12 overflow-hidden",
-                                    style: {
-                                        color: "#FFFFFF"
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Hero$2f$DynamicHeadline$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        text: HEADLINES[index]
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Hero/Hero.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Hero/Hero.tsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/components/Hero/Hero.tsx",
-                                lineNumber: 48,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-6 max-w-xl",
-                                style: {
-                                    color: "#D1D5DB"
-                                },
-                                children: "We partner with companies to design growth strategies, performance marketing, and operational scaling—measured by data and driven by discipline."
-                            }, void 0, false, {
-                                fileName: "[project]/components/Hero/Hero.tsx",
-                                lineNumber: 54,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                onSubmit: (e)=>e.preventDefault(),
-                                className: "mt-8 w-full max-w-md flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "email",
-                                        placeholder: "Enter your email",
-                                        className: "flex-1 py-3 px-4 rounded-lg border focus:ring-2 focus:ring-emerald-200 focus:outline-none",
-                                        style: {
-                                            backgroundColor: "#FFFFFF",
-                                            borderColor: "#34D399",
-                                            color: "#0F172A"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Hero/Hero.tsx",
-                                        lineNumber: 65,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        type: "submit",
-                                        className: "px-6 py-3 rounded-lg font-semibold whitespace-nowrap hover:shadow-lg transition-all",
-                                        style: {
-                                            backgroundColor: "#10B981",
-                                            color: "#FFFFFF"
-                                        },
-                                        children: "Get in touch"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Hero/Hero.tsx",
-                                        lineNumber: 75,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Hero/Hero.tsx",
-                                lineNumber: 61,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Hero/Hero.tsx",
-                        lineNumber: 39,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-                        className: "relative w-full h-80 md:h-96 rounded-lg overflow-hidden shadow-lg bg-gray-50 z-10",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/images/hero.jpg",
-                            alt: "Hero Image",
-                            fill: true,
-                            className: "object-cover"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Hero/Hero.tsx",
-                            lineNumber: 87,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Hero/Hero.tsx",
-                        lineNumber: 86,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/Hero/Hero.tsx",
-                lineNumber: 37,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "pointer-events-none absolute inset-0 z-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute left-0 top-24 w-72 h-72 rounded-full blur-3xl opacity-30 -translate-x-12",
-                        style: {
-                            backgroundColor: "#34D399"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/components/Hero/Hero.tsx",
-                        lineNumber: 98,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute right-0 top-36 w-96 h-96 rounded-full blur-3xl opacity-10 translate-x-10",
-                        style: {
-                            backgroundColor: "#10B981"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/components/Hero/Hero.tsx",
-                        lineNumber: 102,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/Hero/Hero.tsx",
-                lineNumber: 97,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/components/Hero/Hero.tsx",
-        lineNumber: 30,
-        columnNumber: 5
-    }, this);
-}
+const e = new Error("Could not parse module '[project]/components/Hero/Hero.tsx'\n\nExpression expected");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/WhatWeDo/WhatWeDo.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1372,9 +1161,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-ssr] (ecmascript) <locals>");
 "use client";
-;
 ;
 ;
 ;
@@ -1397,28 +1184,28 @@ const reasons = [
     }
 ];
 function WhyChooseUs() {
-    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const scrollRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (!containerRef.current) return;
-        const container = containerRef.current;
-        const items = container.children;
-        const itemWidth = items[0].offsetWidth + 32;
-        const totalWidth = itemWidth * reasons.length;
-        // Duplicate items for seamless loop
-        container.innerHTML += container.innerHTML;
-        // Set initial position to start from left
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].set(container, {
-            x: -totalWidth
-        });
-        // Infinite scroll animation (left to right)
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].to(container, {
-            x: 0,
-            duration: 25,
-            ease: "none",
-            repeat: -1
-        });
+        const scrollContainer = scrollRef.current;
+        if (!scrollContainer) return;
+        let scrollPosition = 0;
+        const scrollSpeed = 0.5;
+        let animationFrameId;
+        const animate = ()=>{
+            if (scrollContainer) {
+                scrollPosition += scrollSpeed;
+                scrollContainer.scrollLeft = scrollPosition;
+                const maxScroll = scrollContainer.scrollWidth / 2;
+                if (scrollPosition >= maxScroll) {
+                    scrollPosition = 0;
+                    scrollContainer.scrollLeft = 0;
+                }
+            }
+            animationFrameId = requestAnimationFrame(animate);
+        };
+        animationFrameId = requestAnimationFrame(animate);
         return ()=>{
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].killTweensOf(container);
+            cancelAnimationFrame(animationFrameId);
         };
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1459,13 +1246,13 @@ function WhyChooseUs() {
                                     children: "Growth SuperCharged"
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 80,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                            lineNumber: 71,
+                            lineNumber: 72,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1488,85 +1275,81 @@ function WhyChooseUs() {
                             children: "We combine deep expertise with dynamic problem-solving to deliver transformative results."
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                            lineNumber: 81,
+                            lineNumber: 82,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                    lineNumber: 70,
+                    lineNumber: 71,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                lineNumber: 69,
+                lineNumber: 70,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        ref: containerRef,
-                        className: "flex gap-8",
+                        ref: scrollRef,
+                        className: "flex gap-8 overflow-x-hidden",
                         style: {
-                            width: "max-content"
+                            scrollBehavior: "auto"
                         },
-                        children: reasons.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                className: "p-10 rounded-2xl flex-shrink-0 shadow-lg hover:shadow-xl transition-all duration-300",
+                        children: [
+                            ...reasons,
+                            ...reasons
+                        ].map((reason, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                className: "flex-shrink-0 w-96 p-10 rounded-2xl backdrop-blur-sm",
                                 style: {
-                                    width: "450px",
-                                    minHeight: "280px",
-                                    backgroundColor: "#FFFFFF",
-                                    border: "2px solid #34D399"
-                                },
-                                whileHover: {
-                                    y: -8,
-                                    scale: 1.02
+                                    backgroundColor: "rgba(255, 255, 255, 0.95)",
+                                    boxShadow: "0 10px 40px rgba(0, 0, 0, 0.1)"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-1 mb-6 rounded-full",
+                                        className: "text-5xl font-bold mb-4",
                                         style: {
-                                            backgroundColor: "#10B981",
-                                            width: "60px"
-                                        }
+                                            color: "#10B981"
+                                        },
+                                        children: reason.number
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 114,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-2xl md:text-3xl font-bold mb-4",
+                                        className: "text-2xl font-bold mb-4",
                                         style: {
-                                            color: "#0F172A",
-                                            letterSpacing: "-0.01em"
+                                            color: "#0F172A"
                                         },
-                                        children: item.title
+                                        children: reason.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 120,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-base md:text-lg leading-relaxed",
                                         style: {
-                                            color: "#6B7280"
+                                            color: "#64748B",
+                                            lineHeight: "1.7"
                                         },
-                                        children: item.description
+                                        children: reason.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 126,
                                         columnNumber: 8
                                     }, this)
                                 ]
-                            }, i, true, {
+                            }, index, true, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                                lineNumber: 102,
+                                lineNumber: 106,
                                 columnNumber: 7
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                        lineNumber: 96,
+                        lineNumber: 97,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1592,41 +1375,40 @@ function WhyChooseUs() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                lineNumber: 95,
-                columnNumber: 4
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 pointer-events-none opacity-5",
-                style: {
-                    backgroundImage: `
-            linear-gradient(rgba(16, 185, 129, 0.3) 2px, transparent 2px),
-            linear-gradient(90deg, rgba(16, 185, 129, 0.3) 2px, transparent 2px),
-            linear-gradient(rgba(16, 185, 129, 0.2) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(16, 185, 129, 0.2) 1px, transparent 1px)
-          `,
-                    backgroundSize: "100px 100px, 100px 100px, 20px 20px, 20px 20px"
-                }
-            }, void 0, false, {
-                fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-                lineNumber: 151,
+                lineNumber: 96,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.tsx",
-        lineNumber: 61,
+        lineNumber: 62,
         columnNumber: 3
     }, this);
-} // />
- // 					</svg>
- // 				</motion.div>
- // 			</div>
- // 			{/* Background grid pattern */}
- // 			<div
- // 				className="absolute inset-0 pointer-events-none opacity-5"
- // 				style={{
- // 					backgroundImage: `
- //             linear-gradient(rgba(16, 185, 129, 0.3) 2px, transparent 2px),
+}
+// 		</section>
+// 	);
+// }
+// linear-gradient(rgba(16, 185, 129, 0.3) 2px, transparent 2px),
+// linear-gradient(90deg, rgba(16, 185, 129, 0.3) 2px, transparent 2px),
+// linear-gradient(rgba(16, 185, 129, 0.2) 1px, transparent 1px),
+// linear-gradient(90deg, rgba(16, 185, 129, 0.2) 1px, transparent 1px)
+`,
+					backgroundSize: "100px 100px, 100px 100px, 20px 20px, 20px 20px",
+				}}
+			/>
+		</section>
+	);
+}
+						// />
+// 					</svg>
+// 				</motion.div>
+// 			</div>
+
+// 			{/* Background grid pattern */}
+// 			<div
+// 				className="absolute inset-0 pointer-events-none opacity-5"
+// 				style={{
+// 					backgroundImage: `; //             linear-gradient(rgba(16, 185, 129, 0.3) 2px, transparent 2px),
  //             linear-gradient(90deg, rgba(16, 185, 129, 0.3) 2px, transparent 2px),
  //             linear-gradient(rgba(16, 185, 129, 0.2) 1px, transparent 1px),
  //             linear-gradient(90deg, rgba(16, 185, 129, 0.2) 1px, transparent 1px)
@@ -1742,43 +1524,48 @@ function Home() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const canvas = canvasRef.current;
         if (!canvas) return;
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas.getContext('2d', {
+            alpha: false
+        });
         if (!ctx) return;
-        canvas.width = window.innerWidth;
-        canvas.height = document.documentElement.scrollHeight;
+        // Set initial canvas size
+        const updateCanvasSize = ()=>{
+            const dpr = Math.min(window.devicePixelRatio || 1, 2) // Limit to 2x for performance
+            ;
+            canvas.width = window.innerWidth * dpr;
+            canvas.height = window.innerHeight * dpr; // Only viewport height instead of full document
+            canvas.style.width = `${window.innerWidth}px`;
+            canvas.style.height = `${window.innerHeight}px`;
+            ctx.scale(dpr, dpr);
+        };
+        updateCanvasSize();
         const particles = [];
+        // Reduce particle count based on device
+        const particleCount = window.innerWidth < 768 ? 40 : 60;
         // Create particles
-        for(let i = 0; i < 100; i++){
+        for(let i = 0; i < particleCount; i++){
             particles.push({
-                x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                size: Math.random() * 3 + 1,
-                speedX: (Math.random() - 0.5) * 0.5,
-                speedY: (Math.random() - 0.5) * 0.5,
-                opacity: Math.random() * 0.5 + 0.3
+                x: Math.random() * window.innerWidth,
+                y: Math.random() * window.innerHeight,
+                size: Math.random() * 2 + 1,
+                speedX: (Math.random() - 0.5) * 0.3,
+                speedY: (Math.random() - 0.5) * 0.3,
+                opacity: Math.random() * 0.4 + 0.2
             });
         }
-        const animate = ()=>{
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            // Draw connections and particles
-            particles.forEach((particle, i)=>{
-                // Draw connections
-                particles.forEach((otherParticle, j)=>{
-                    if (i !== j) {
-                        const dx = particle.x - otherParticle.x;
-                        const dy = particle.y - otherParticle.y;
-                        const distance = Math.sqrt(dx * dx + dy * dy);
-                        if (distance < 150) {
-                            ctx.strokeStyle = `rgba(16, 185, 129, ${(1 - distance / 150) * 0.2})`;
-                            ctx.lineWidth = 0.5;
-                            ctx.beginPath();
-                            ctx.moveTo(particle.x, particle.y);
-                            ctx.lineTo(otherParticle.x, otherParticle.y);
-                            ctx.stroke();
-                        }
-                    }
-                });
-                // Draw particle
+        let animationFrameId;
+        let lastTime = 0;
+        const fps = 30 // Limit to 30 fps for better performance
+        ;
+        const fpsInterval = 1000 / fps;
+        const animate = (currentTime)=>{
+            animationFrameId = requestAnimationFrame(animate);
+            const elapsed = currentTime - lastTime;
+            if (elapsed < fpsInterval) return;
+            lastTime = currentTime - elapsed % fpsInterval;
+            ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+            // Draw particles only
+            particles.forEach((particle)=>{
                 ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`;
                 ctx.beginPath();
                 ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
@@ -1786,19 +1573,43 @@ function Home() {
                 // Update position
                 particle.x += particle.speedX;
                 particle.y += particle.speedY;
-                // Bounce off edges
-                if (particle.x < 0 || particle.x > canvas.width) particle.speedX *= -1;
-                if (particle.y < 0 || particle.y > canvas.height) particle.speedY *= -1;
+                // Wrap around edges instead of bounce (simpler calculation)
+                if (particle.x < 0) particle.x = window.innerWidth;
+                if (particle.x > window.innerWidth) particle.x = 0;
+                if (particle.y < 0) particle.y = window.innerHeight;
+                if (particle.y > window.innerHeight) particle.y = 0;
             });
-            requestAnimationFrame(animate);
+            // Draw connections only for nearby particles (optimized)
+            const connectionDistance = 120;
+            particles.forEach((particle, i)=>{
+                for(let j = i + 1; j < particles.length; j++){
+                    const other = particles[j];
+                    const dx = particle.x - other.x;
+                    const dy = particle.y - other.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    if (distance < connectionDistance) {
+                        ctx.strokeStyle = `rgba(16, 185, 129, ${(1 - distance / connectionDistance) * 0.15})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.beginPath();
+                        ctx.moveTo(particle.x, particle.y);
+                        ctx.lineTo(other.x, other.y);
+                        ctx.stroke();
+                    }
+                }
+            });
         };
-        animate();
+        animate(0);
+        let resizeTimeout;
         const handleResize = ()=>{
-            canvas.width = window.innerWidth;
-            canvas.height = document.documentElement.scrollHeight;
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(updateCanvasSize, 250);
         };
         window.addEventListener('resize', handleResize);
-        return ()=>window.removeEventListener('resize', handleResize);
+        return ()=>{
+            cancelAnimationFrame(animationFrameId);
+            window.removeEventListener('resize', handleResize);
+            clearTimeout(resizeTimeout);
+        };
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "min-h-screen bg-background relative",
@@ -1808,11 +1619,12 @@ function Home() {
                 className: "fixed inset-0 z-0 pointer-events-none",
                 style: {
                     background: 'linear-gradient(180deg, #0a2e2e 0%, #0d3d3d 50%, #0a2e2e 100%)',
-                    opacity: 0.6
+                    opacity: 0.6,
+                    willChange: 'auto'
                 }
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 101,
+                lineNumber: 132,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1820,22 +1632,22 @@ function Home() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 111,
+                        lineNumber: 143,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Hero$2f$Hero$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 112,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WhatWeDo$2f$WhatWeDo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 113,
+                        lineNumber: 145,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WhyChooseUs$2f$WhyChooseUs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 114,
+                        lineNumber: 146,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1865,7 +1677,7 @@ function Home() {
                                     children: "How can we help you grow?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 161,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1876,7 +1688,7 @@ function Home() {
                                     children: "Let's partner together to take your business to new heights."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 167,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -1896,40 +1708,40 @@ function Home() {
                                         children: "Get in Touch"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 179,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 123,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 149,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 152,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 110,
+                lineNumber: 142,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 99,
+        lineNumber: 130,
         columnNumber: 5
     }, this);
 } //               >

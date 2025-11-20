@@ -35,12 +35,20 @@ export function Footer() {
             >
               <div className="flex items-center gap-2 mb-4">
                 <div
-                  className="w-10 h-10 rounded-md flex items-center justify-center font-bold text-sm"
+                  className="w-10 h-10 rounded-md flex items-center justify-center font-bold text-xs"
                   style={{ backgroundColor: '#10B981', color: '#FFFFFF' }}
                 >
-                  GS
+                  GSC
                 </div>
-                <span className="text-lg font-semibold" style={{ color: '#FFFFFF' }}>
+                <span 
+                  className="text-sm tracking-widest uppercase" 
+                  style={{ 
+                    color: '#FFFFFF',
+                    fontFamily: "'Azonix', sans-serif",
+                    fontWeight: "normal",
+                    letterSpacing: "0.2em"
+                  }}
+                >
                   Growth SuperCharged
                 </span>
               </div>
@@ -120,14 +128,7 @@ export function Footer() {
     </footer>
   )
 }
-//           transition={{ duration: 0.6, delay: 0.2 }}
-//           className="text-center py-12 border-t"
-//           style={{ borderColor: 'rgba(255, 255, 255, 0.1)' }}
-//         >
-//           <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-//             Are you ready?<br />Let's grow together!
-//           </h2>
-//           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
 //             <motion.button
 //               whileHover={{ scale: 1.05 }}
 //               whileTap={{ scale: 0.95 }}

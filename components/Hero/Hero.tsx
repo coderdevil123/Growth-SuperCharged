@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 import DynamicHeadline from "@/components/Hero/DynamicHeadline";
+import { Cover } from "@/components/ui/cover";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -37,10 +38,18 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center relative z-10">
         {/* Left */}
         <section>
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight" style={{ color: "#FFFFFF" }}>
-            Growth{" "}
-            <span style={{ color: "#10B981" }}>SuperCharged</span>
+          <h1 
+            className="text-3xl md:text-5xl leading-tight tracking-widest uppercase"
+            style={{ 
+              fontFamily: "'Azonix', sans-serif",
+              fontWeight: "normal",
+              letterSpacing: "0.2em"
+            }}
+          >
+            <Cover>Growth</Cover>{" "}
+            <Cover>SuperCharged</Cover>
           </h1>
+          
           <p className="mt-3 text-lg font-medium" style={{ color: "#34D399" }}>
             Own The Edge
           </p>

@@ -94,6 +94,14 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@font-face {
+  font-family: 'Azonix';
+  src: url('/fonts/Azonix.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -135,3 +143,4 @@
 .animate-typing-cursor {
   animation: typing-cursor 1s infinite;
 }
+
