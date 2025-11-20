@@ -8,7 +8,6 @@ import WhatWeDo from '@/components/WhatWeDo/WhatWeDo'
 import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
-import { HoverBorderGradient } from '@/components/ui/hover-border-gradient'
 
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -171,14 +170,16 @@ export default function Home() {
             >
               Let's partner together to take your business to new heights.
             </p>
-            <Link href="/contact">
-              <HoverBorderGradient
-                containerClassName="rounded-full inline-block"
-                className="bg-emerald-600 text-white px-8 py-4 font-semibold"
-              >
-                Get in Touch
-              </HoverBorderGradient>
-            </Link>
+            <div className="flex justify-center">
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-emerald-500 text-white hover:bg-emerald-600 rounded-full px-8 py-4 font-semibold text-base transition-all duration-250 ease-in-out shadow-lg hover:shadow-emerald-500/50 focus-visible:ring-2 focus-visible:ring-emerald-400"
+                >
+                  Get in Touch
+                </Link>
+              </motion.div>
+            </div>
           </motion.div>
         </section>
 
@@ -187,6 +188,7 @@ export default function Home() {
     </main>
   )
 }
+
 //                 <motion.div
 //                   initial={{ width: 0 }}
 //                   whileInView={{ width: 12 }}

@@ -1,267 +1,41 @@
-[00:00:00.728] Server  LOG      ✓ Ready in 509ms
-[00:00:08.330] Server  LOG      ○ Compiling / ...
-[00:00:09.838] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.644] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.644] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.644] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634063933}
-[00:00:23.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.685] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:23.685] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.685] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634077080}
-[00:02:16.720] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634189789}
-[00:02:29.132] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634202368}
-[00:02:33.393] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634206673}
-[00:02:36.705] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634210012}
-[00:02:39.529] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634212836}
-[00:02:44.822] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634218130}
-[00:02:53.302] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634226598}
-[00:02:59.284] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634232580}
-[00:03:33.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:33.315] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:33.315] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:33.315] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634266711}
-[00:06:26.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634439869}
-[00:06:35.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634449057}
-[00:06:58.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634471981}
-[00:07:08.010] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634481399}
-[00:09:26.618] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634620008}
-[00:09:39.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634632672}
-[00:09:40.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634634213}
-[00:09:42.377] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634635767}
-[00:10:10.847] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763634664242}
-[01:29:44.028] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:29:44.583] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:29:44.583] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:29:44.583] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763639437979}
-[01:30:09.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:30:09.770] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:30:09.770] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:30:09.770] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763639463141}
-[01:30:28.734] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763639482122}
-[01:30:31.370] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763639484754}
-[01:31:39.172] Server  LOG      ✓ Compiled in 350ms
-[01:31:39.273] Browser ERROR   ./components/Navbar/Navbar.tsx:219:3
+[00:00:00.634] Server  LOG      ✓ Ready in 439ms
+[00:00:11.121] Server  LOG      ○ Compiling / ...
+[00:00:12.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.177] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.177] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.177] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647579032}
+[00:00:13.486] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.486] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.486] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647579033}
+[00:00:54.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.658] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:54.658] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:54.658] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647620646}
+[00:01:04.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647630918}
+[00:01:07.434] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647633398}
+[00:06:06.655] Server  LOG      ✓ Compiled in 187ms
+[00:07:25.163] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763648011144}
+[00:07:27.513] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763648013488}
+[02:22:42.098] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763656128077}
+[02:22:46.129] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763656132060}
+[02:38:38.288] Server  LOG      ✓ Compiled in 1051ms
+[02:44:16.765] Server  LOG      ✓ Compiled in 551ms
+[02:46:21.842] Server  LOG      ✓ Compiled in 674ms
+[02:50:03.607] Server  LOG      ✓ Compiled in 625ms
+[02:51:18.563] Server  LOG      ✓ Compiled in 528ms
+[02:53:46.324] Server  LOG      ✓ Compiled in 2.7s
+[02:53:47.113] Browser ERROR   ./components/Hero/Hero.tsx:46:15
 Parsing ecmascript source code failed
-  217 |   );
-  218 | }
-> 219 |   );
-      |   ^
-  220 | }
-  221 | //               <button
-  222 | //                 className="w-full px-5 py-2 rounded-full text-sm font-medium shadow-sm mt-4"
+  44 |             style={{ 
+  45 |               fontFamily
+> 46 |               letterSpacing: "0.2em"
+     |               ^^^^^^^^^^^^^
+  47 |             }}
+  48 |           >
+  49 |             <Cover>Growth</Cover>{" "}
 
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[01:31:46.163] Server  LOG      ✓ Compiled in 53ms
-[01:31:46.266] Browser ERROR   ./components/Navbar/Navbar.tsx:219:3
-Parsing ecmascript source code failed
-  217 |   );
-  218 | }
-> 219 |   );
-      |   ^
-  220 | }
-  221 | //               <button
-  222 | //                 className="w-full px-5 py-2 rounded-full text-sm font-medium shadow-sm mt-4"
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[01:43:01.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:43:01.853] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:43:01.853] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:43:01.853] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763640235245}
-[01:48:24.972] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763640558329}
-[01:48:32.074] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763640565431}
-[02:05:14.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:05:15.164] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:05:15.164] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:05:15.164] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641568555}
-[02:05:49.019] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641602394}
-[02:05:51.378] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641604763}
-[02:05:53.459] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641606837}
-[02:12:19.040] Server  LOG      ✓ Compiled in 126ms
-[02:12:19.411] Server  LOG      ✓ Compiled in 69ms
-[02:12:19.952] Server  LOG      ✓ Compiled in 35ms
-[02:12:35.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:12:35.710] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:12:35.710] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:12:35.710] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763642009105}
-[02:16:52.908] Server  LOG      ✓ Compiled in 148ms
-[02:16:53.192] Server  LOG      ✓ Compiled in 33ms
-[02:16:53.378] Server  LOG      ✓ Compiled in 22ms
-[02:17:28.072] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:17:28.592] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:17:28.592] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:17:28.592] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763642301987}
-[02:25:25.910] Server  LOG      ✓ Compiled in 449ms
-[02:25:26.101] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:25:27.943] Server  LOG      ✓ Compiled in 67ms
-[02:25:28.321] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:25:28.770] Server  LOG      ✓ Compiled in 16ms
-[02:25:29.001] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:25:29.298] Server  LOG      ✓ Compiled in 15ms
-[02:25:29.491] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:26:28.288] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:27:26.860] Browser ERROR   ./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: /home/devil/Documents/website-pf/website-pristineforests/app/globals.css:147:1: Unexpected }
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
-    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[02:31:56.678] Server  LOG      ✓ Compiled in 152ms
-[02:31:59.742] Server  LOG      ✓ Compiled in 76ms
-[02:32:02.449] Server  LOG      ✓ Compiled in 44ms
-[02:32:03.172] Server  LOG      ✓ Compiled in 24ms
-[02:35:55.375] Server  LOG      ✓ Compiled in 109ms
-[02:35:55.747] Browser ERROR   ./components/Navbar/Navbar.tsx:224:1
-Parsing ecmascript source code failed
-  222 |   );
-  223 | }
-> 224 | }
-      | ^
-  225 | //                 }}
-  226 | //               >
-  227 | //                 Chat with Manu →
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:36:00.225] Server  LOG      ✓ Compiled in 129ms
-[02:36:00.753] Server  LOG      ✓ Compiled in 48ms
-[02:36:01.769] Browser ERROR   ./components/Hero/Hero.tsx:119:1
-Parsing ecmascript source code failed
-  117 |   );
-  118 | }
-> 119 | }
-      | ^
-  120 |
-
-Expression expected
+Expected '</', got 'letterSpacing'
 
 Import traces:
   Client Component Browser:
@@ -273,59 +47,38 @@ Import traces:
     ./components/Hero/Hero.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-[02:36:01.769] Browser ERROR   ./components/Navbar/Navbar.tsx:224:1
+[02:53:48.349] Server  LOG      ✓ Compiled in 280ms
+[02:53:48.938] Browser ERROR   ./app/page.tsx:75:7
 Parsing ecmascript source code failed
-  222 |   );
-  223 | }
-> 224 | }
-      | ^
-  225 | //                 }}
-  226 | //               >
-  227 | //                 Chat with Manu →
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
 
-Expression expected
+Expected ',', got 'particles'
 
 Import traces:
   Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
     ./app/page.tsx [Client Component Browser]
     ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-[02:36:01.769] Browser ERROR   ./components/Footer/Footer.tsx:131:1
+[02:53:48.945] Browser ERROR   ./components/Hero/Hero.tsx:46:15
 Parsing ecmascript source code failed
-  129 |   )
-  130 | }
-> 131 | }
-      | ^
-  132 | //             <motion.button
-  133 | //               whileHover={{ scale: 1.05 }}
-  134 | //               whileTap={{ scale: 0.95 }}
+  44 |             style={{ 
+  45 |               fontFamily
+> 46 |               letterSpacing: "0.2em"
+     |               ^^^^^^^^^^^^^
+  47 |             }}
+  48 |           >
+  49 |             <Cover>Growth</Cover>{" "}
 
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Footer/Footer.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Footer/Footer.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:36:01.769] Browser ERROR   ./components/Hero/Hero.tsx:119:1
-Parsing ecmascript source code failed
-  117 |   );
-  118 | }
-> 119 | }
-      | ^
-  120 |
-
-Expression expected
+Expected '</', got 'letterSpacing'
 
 Import traces:
   Client Component Browser:
@@ -337,283 +90,199 @@ Import traces:
     ./components/Hero/Hero.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-[02:36:01.769] Browser ERROR   ./components/Navbar/Navbar.tsx:224:1
+[02:57:17.459] Server  LOG      ✓ Compiled in 738ms
+[02:57:17.682] Browser ERROR   ./app/page.tsx:75:7
 Parsing ecmascript source code failed
-  222 |   );
-  223 | }
-> 224 | }
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:57:56.714] Server  ERROR    ⨯ ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:57:57.913] Browser ERROR   ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:57:59.290] Browser ERROR   ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:57:59.677] Browser ERROR   ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:57:59.758] Server  LOG      ○ Compiling /_error ...
+[02:58:01.571] Browser ERROR   uncaughtError: Error: ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:58:01.675] Browser ERROR   ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:58:01.789] Browser ERROR   ./app/page.tsx:75:7
+Parsing ecmascript source code failed
+  73 |
+  74 |       // Draw particles only
+> 75 |       particles.forEach((particle) => {
+     |       ^^^^^^^^^
+  76 |         ctx.fillStyle = `rgba(16, 185, 129, ${particle.opacity})`
+  77 |         ctx.beginPath()
+  78 |         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
+
+Expected ',', got 'particles'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:00:13.070] Browser ERROR   ./app/page.tsx:191:1
+Parsing ecmascript source code failed
+  189 |   )
+  190 | }
+> 191 | }
       | ^
-  225 | //                 }}
-  226 | //               >
-  227 | //                 Chat with Manu →
+  192 | //                 <motion.div
+  193 | //                   initial={{ width: 0 }}
+  194 | //                   whileInView={{ width: 12 }}
 
 Expression expected
 
 Import traces:
   Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
     ./app/page.tsx [Client Component Browser]
     ./app/page.tsx [Server Component]
 
   Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-[02:36:35.843] Server  LOG      ✓ Compiled in 62ms
-[02:36:36.121] Browser ERROR   ./components/Hero/Hero.tsx:119:1
-Parsing ecmascript source code failed
-  117 |   );
-  118 | }
-> 119 | }
-      | ^
-  120 |
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Hero/Hero.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Hero/Hero.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:36:36.121] Browser ERROR   ./components/Navbar/Navbar.tsx:224:1
-Parsing ecmascript source code failed
-  222 |   );
-  223 | }
-> 224 | }
-      | ^
-  225 | //                 }}
-  226 | //               >
-  227 | //                 Chat with Manu →
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:36:47.560] Server  LOG      ✓ Compiled in 48ms
-[02:36:47.995] Browser ERROR   ./components/Navbar/Navbar.tsx:224:1
-Parsing ecmascript source code failed
-  222 |   );
-  223 | }
-> 224 | }
-      | ^
-  225 | //                 }}
-  226 | //               >
-  227 | //                 Chat with Manu →
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:37:01.958] Server  LOG      ✓ Compiled in 53ms
-[02:38:31.496] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763643564797}
-[02:38:34.999] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763643568343}
-[02:38:37.670] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763643571023}
-[02:38:51.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763643585289}
-[02:38:59.584] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763643592914}
-[03:06:33.565] Server  LOG      ✓ Compiled in 363ms
-[03:06:35.178] Server  LOG      ✓ Compiled in 130ms
-[03:06:44.809] Server  LOG      ✓ Compiled in 914ms
-[03:06:45.769] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:06:46.681] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:06:55.589] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:06:57.915] Server  LOG      ✓ Compiled in 213ms
-[03:06:58.615] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:07:07.648] Server  LOG      ✓ Compiled in 266ms
-[03:07:08.032] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:07:08.752] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:07:09.365] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:08:11.539] Browser ERROR   ./components/Navbar/Navbar.tsx:105:17
-Parsing ecmascript source code failed
-  103 |             </motion.span>
-  104 |           </Link>
-> 105 |           <Link href="/team">
-      |                 ^^^^
-  106 |             <motion.span
-  107 |               whileHover={{ scale: 1.05 }}
-  108 |               className="text-sm font-medium transition-colors"
-
-Expected ';', '}' or <eof>
-
-Import traces:
-  Client Component Browser:
-    ./components/Navbar/Navbar.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/Navbar/Navbar.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:08:39.725] Server  LOG      ✓ Compiled in 831ms
-[03:09:29.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:09:29.482] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:09:29.482] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[03:09:29.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763645422873}
+[03:00:24.137] Server  LOG      ✓ Compiled in 62ms
+[03:00:25.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:25.605] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:00:25.605] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:00:25.605] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763658391584}
+[03:08:54.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763658900582}
+[03:09:00.030] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763658905985}
+[03:43:19.811] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763660965783}
+[03:43:32.034] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/team color: rgb(120, 120, 120) color: inherit {"dp":"/team","o":"http://localhost:3000/team","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763660978019}
+[03:43:34.801] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763660980727}

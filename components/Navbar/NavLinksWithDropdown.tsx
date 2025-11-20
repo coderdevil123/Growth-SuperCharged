@@ -37,19 +37,76 @@ const navLinks: NavLink[] = [
   {
     label: 'About',
     href: '/about',
+    hasDropdown: true,
+    dropdownContent: [
+      {
+        title: 'Our Story',
+        description: 'Learn about our journey and values',
+        icon: '📖'
+      },
+      {
+        title: 'Mission',
+        description: 'Empowering businesses to reach their potential',
+        icon: '🚀'
+      }
+    ]
   },
   {
     label: 'Services',
     href: '/services',
+    hasDropdown: true,
+    dropdownContent: [
+      {
+        title: 'Growth Strategy',
+        description: 'Data-driven strategies for sustainable growth',
+        icon: '📈'
+      },
+      {
+        title: 'Performance Marketing',
+        description: 'ROI-focused marketing campaigns',
+        icon: '💡'
+      },
+      {
+        title: 'Operational Scaling',
+        description: 'Streamline operations for efficiency',
+        icon: '⚙️'
+      }
+    ]
   },
   {
     label: 'Team',
     href: '/team',
+    hasDropdown: true,
+    dropdownContent: [
+      {
+        title: 'Meet the Team',
+        description: 'Experts dedicated to your success',
+        icon: '👥'
+      },
+      {
+        title: 'Join Us',
+        description: 'Explore career opportunities',
+        icon: '💼'
+      }
+    ]
   },
   {
     label: 'Contact',
     href: '/contact',
-  },
+    hasDropdown: true,
+    dropdownContent: [
+      {
+        title: 'Get in Touch',
+        description: 'Start your growth journey today',
+        icon: '📧'
+      },
+      {
+        title: 'Schedule a Call',
+        description: 'Book a consultation with our experts',
+        icon: '📞'
+      }
+    ]
+  }
 ];
 
 interface NavLinksWithDropdownProps {

@@ -6,6 +6,7 @@ import DynamicHeadline from "@/components/Hero/DynamicHeadline";
 import { Cover } from "@/components/ui/cover";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { motion } from "framer-motion";
 
 if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
@@ -81,13 +82,14 @@ export default function Hero() {
                 color: "#0F172A"
               }}
             />
-            <button
-              type="submit"
-              className="px-6 py-3 rounded-lg font-semibold whitespace-nowrap hover:shadow-lg transition-all"
-              style={{ backgroundColor: "#10B981", color: "#FFFFFF" }}
-            >
-              Get in touch
-            </button>
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <button
+                type="submit"
+                className="bg-emerald-500 text-white hover:bg-emerald-600 rounded-full px-6 py-3 font-semibold whitespace-nowrap transition-all duration-250 shadow-lg hover:shadow-emerald-500/50 focus-visible:ring-2 focus-visible:ring-emerald-400"
+              >
+                Get in touch
+              </button>
+            </motion.div>
           </form>
         </section>
 
