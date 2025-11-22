@@ -2,27 +2,28 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MenuIcon, XIcon } from 'lucide-react';
-import Logo from './Logo';
-import NavLinksWithDropdown from './NavLinksWithDropdown';
-import CtaButton from './CtaButton';
-import MobileMenu from './MobileMenu';
+import { X } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
   const [isDark, setIsDark] = useState(true);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setIsScrolled(currentScrollY > 20);
+      setIsScrolled(currentScrollY > 50);
 
-      // Adjust section detection
+      // Smooth transition detection - smaller increments
       const heroEnd = 800;
       const whatWeDoEnd = 1600;
       const whyChooseUsEnd = 2400;
 
+      // Use immediate state updates for smooth color transitions
       if (currentScrollY < heroEnd) {
         setIsDark(true);
       } else if (currentScrollY >= heroEnd && currentScrollY < whatWeDoEnd) {
@@ -34,58 +35,225 @@ const Navbar: React.FC = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    // Update on every scroll for smooth transitions
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  useEffect(() => {
+    setIsMenuOpen(false);
+    setIsHovering(false);
+  }, [pathname]);
+
+  const menuItems = [
+    { label: 'Home', path: '/', description: 'Welcome to Growth SuperCharged' },
+    { label: 'About', path: '/about', description: 'Learn about our story and mission' },
+    { label: 'Services', path: '/services', description: 'Explore our comprehensive solutions' },
+    { label: 'Team', path: '/team', description: 'Meet our expert team members' },
+    { label: 'Contact', path: '/contact', description: 'Get in touch with us' },
+  ];
 
   return (
     <>
       <motion.header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'backdrop-blur-md' : ''
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-lg shadow-lg shadow-emerald-500/10`}
         style={{
-          backgroundColor: isDark ? 'rgba(15, 23, 42, 0.95)' : 'transparent'
+          backgroundColor: isDark 
+            ? 'rgba(10, 22, 40, 0.8)' 
+            : 'rgba(255, 255, 255, 0.7)',
+          transition: 'background-color 0.3s ease-in-out'
         }}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.6 }}
+        onMouseEnter={() => setIsHovering(true)}
+        onMouseLeave={() => setIsHovering(false)}
       >
-        <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Logo isDark={isDark} />
+        <nav className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+          <Link href="/" className="relative z-50">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="flex items-center gap-3"
+            >
+              <div 
+                className="w-10 h-10 rounded-md flex items-center justify-center font-bold text-sm text-white shadow-lg"
+                style={{ 
+                  backgroundColor: isDark ? '#10B981' : '#0F172A',
+                  transition: 'background-color 0.3s ease-in-out'
+                }}
+              >
+                GSC
+              </div>
+              <span
+                className="text-sm md:text-base tracking-[0.2em] uppercase font-normal"
+                style={{ 
+                  fontFamily: "'Azonix', sans-serif",
+                  color: isDark ? '#FFFFFF' : '#0F172A',
+                  transition: 'color 0.3s ease-in-out'
+                }}
+              >
+                Growth SuperCharged
+              </span>
+            </motion.div>
+          </Link>
 
-          <div className="hidden md:flex items-center justify-center flex-1">
-            <NavLinksWithDropdown isDark={isDark} />
-          </div>
-
+          {/* Desktop - Hover trigger area */}
           <div className="hidden md:block">
-            <CtaButton />
+            <button
+              className="px-6 py-2.5 bg-emerald-500 text-white rounded-full font-medium hover:bg-emerald-600 transition-colors duration-300 shadow-lg shadow-emerald-500/50"
+            >
+              Get in Touch
+            </button>
           </div>
 
+          {/* Mobile Menu Button */}
           <button
-            onClick={toggleMobileMenu}
-            className="md:hidden p-2 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 rounded"
-            style={{ color: isDark ? '#FFFFFF' : '#0F172A' }}
-            aria-expanded={isMobileMenuOpen}
-            aria-controls="mobile-menu"
-            aria-label="Toggle navigation menu"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden px-6 py-2.5 bg-emerald-500 text-white rounded-full font-medium hover:bg-emerald-600 transition-colors duration-300 shadow-lg shadow-emerald-500/50"
           >
-            {isMobileMenuOpen ? (
-              <XIcon className="w-6 h-6" strokeWidth={2} />
-            ) : (
-              <MenuIcon className="w-6 h-6" strokeWidth={2} />
-            )}
+            Get in Touch
           </button>
         </nav>
+
+        {/* Dropdown Menu on Hover - Desktop */}
+        <AnimatePresence>
+          {isHovering && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
+              className="hidden md:block overflow-hidden backdrop-blur-lg border-t border-emerald-500/20"
+              style={{
+                backgroundColor: isDark 
+                  ? 'rgba(10, 22, 40, 0.95)' 
+                  : 'rgba(255, 255, 255, 0.95)',
+                transition: 'background-color 0.3s ease-in-out'
+              }}
+            >
+              <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
+                <div className="grid grid-cols-1 gap-2">
+                  {menuItems.map((item, index) => (
+                    <motion.div
+                      key={item.label}
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: index * 0.05 }}
+                    >
+                      <Link href={item.path} className="block group">
+                        <div className="flex items-center justify-between p-4 rounded-lg hover:bg-emerald-500/10 transition-all duration-300">
+                          <div>
+                            <h3
+                              className="text-3xl md:text-4xl font-bold transition-colors duration-300 mb-1 group-hover:text-emerald-400"
+                              style={{ 
+                                fontFamily: "'Azonix', sans-serif",
+                                color: isDark ? '#FFFFFF' : '#0F172A',
+                                transition: 'color 0.3s ease-in-out'
+                              }}
+                            >
+                              {item.label}
+                            </h3>
+                            <p 
+                              className="text-sm"
+                              style={{ 
+                                color: isDark ? '#9CA3AF' : '#6B7280',
+                                transition: 'color 0.3s ease-in-out'
+                              }}
+                            >
+                              {item.description}
+                            </p>
+                          </div>
+                          <motion.div
+                            className="text-emerald-400 text-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            animate={{ x: [0, 5, 0] }}
+                            transition={{ duration: 1.5, repeat: Infinity }}
+                          >
+                            →
+                          </motion.div>
+                        </div>
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.header>
 
+      {/* Mobile Full Screen Menu */}
       <AnimatePresence>
-        {isMobileMenuOpen && (
-          <MobileMenu onClose={() => setIsMobileMenuOpen(false)} isDark={isDark} />
+        {isMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-[100] bg-[#0a1628] md:hidden"
+          >
+            <div className="max-w-7xl mx-auto px-6 h-full flex flex-col">
+              <div className="h-20 flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-emerald-500 rounded-md flex items-center justify-center font-bold text-sm text-white">
+                    GSC
+                  </div>
+                  <span
+                    className="text-sm tracking-[0.2em] uppercase font-normal text-white"
+                    style={{ fontFamily: "'Azonix', sans-serif" }}
+                  >
+                    Growth SuperCharged
+                  </span>
+                </div>
+                <button
+                  onClick={() => setIsMenuOpen(false)}
+                  className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors"
+                >
+                  <X className="w-6 h-6 text-white" />
+                </button>
+              </div>
+
+              <div className="flex-1 flex items-center justify-center">
+                <nav className="w-full">
+                  <ul className="space-y-2">
+                    {menuItems.map((item, index) => (
+                      <motion.li
+                        key={item.label}
+                        initial={{ opacity: 0, x: -50 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.1 + index * 0.1 }}
+                      >
+                        <Link
+                          href={item.path}
+                          onClick={() => setIsMenuOpen(false)}
+                          className="block p-4 rounded-lg hover:bg-emerald-500/10 transition-all duration-300 group"
+                        >
+                          <h3
+                            className="text-3xl md:text-4xl font-bold text-white group-hover:text-emerald-400 transition-colors duration-300 mb-2 uppercase tracking-wider"
+                            style={{ fontFamily: "'Azonix', sans-serif" }}
+                          >
+                            {item.label}
+                          </h3>
+                          <p className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+                            {item.description}
+                          </p>
+                        </Link>
+                      </motion.li>
+                    ))}
+                  </ul>
+                </nav>
+              </div>
+
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5 }}
+                className="pb-8 text-sm text-gray-400"
+              >
+                <p className="italic">Own The Edge</p>
+              </motion.div>
+            </div>
+          </motion.div>
         )}
       </AnimatePresence>
     </>
@@ -93,126 +261,6 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-//           <Link href="/services">
-//             <motion.span
-//               whileHover={{ scale: 1.05 }}
-//               className="text-sm font-medium transition-colors"
-//               style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//             >
-//               Services
-//             </motion.span>
-//           </Link>
-//           <Link href="/team">
-//             <motion.span
-//               whileHover={{ scale: 1.05 }}
-//               className="text-sm font-medium transition-colors"
-//               style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//             >
-//               Team
-//             </motion.span>
-//           </Link>
-//           <Link href="/contact">
-//             <motion.span
-//               whileHover={{ scale: 1.05 }}
-//               className="text-sm font-medium transition-colors"
-//               style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//             >
-//               Contact
-//             </motion.span>
-//           </Link>
-//         </div>
-
-//         {/* Right Side CTA - Desktop */}
-//         <div className="hidden md:flex">
-//           <Link href="/contact">
-//             <motion.button
-//               whileHover={{ scale: 1.05 }}
-//               whileTap={{ scale: 0.95 }}
-//               className="px-5 py-2 rounded-full text-sm font-medium shadow-sm transition-all"
-//               style={{
-//                 backgroundColor: "#10B981",
-//                 color: "#FFFFFF",
-//               }}
-//             >
-//               Get in touch
-//             </motion.button>
-//           </Link>
-//         </div>
-
-//         {/* Mobile Menu Button */}
-//         <button
-//           onClick={() => setIsOpen(!isOpen)}
-//           className="md:hidden"
-//           style={{
-//             color: isDark ? "#FFFFFF" : "#0F172A",
-//           }}
-//         >
-//           {isOpen ? <X size={24} /> : <Menu size={24} />}
-//         </button>
-//       </div>
-
-//       {/* Mobile Navigation */}
-//       <AnimatePresence>
-//         {isOpen && (
-//           <motion.div
-//             initial={{ opacity: 0, height: 0 }}
-//             animate={{ opacity: 1, height: "auto" }}
-//             exit={{ opacity: 0, height: 0 }}
-//             className="md:hidden"
-//             style={{
-//               backgroundColor: isDark ? "#0F172A" : "#FFFFFF",
-//             }}
-//           >
-//             <div className="px-6 pt-2 pb-4 space-y-3">
-//               <Link href="/" onClick={() => setIsOpen(false)}>
-//                 <div
-//                   className="block py-2 font-medium"
-//                   style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//                 >
-//                   Home
-//                 </div>
-//               </Link>
-//               <Link href="/about" onClick={() => setIsOpen(false)}>
-//                 <div
-//                   className="block py-2 font-medium"
-//                   style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//                 >
-//                   About
-//                 </div>
-//               </Link>
-//               <Link href="/services" onClick={() => setIsOpen(false)}>
-//                 <div
-//                   className="block py-2 font-medium"
-//                   style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//                 >
-//                   Services
-//                 </div>
-//               </Link>
-//               <Link href="/team" onClick={() => setIsOpen(false)}>
-//                 <div
-//                   className="block py-2 font-medium"
-//                   style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//                 >
-//                   Team
-//                 </div>
-//               </Link>
-//               <Link href="/contact" onClick={() => setIsOpen(false)}>
-//                 <div
-//                   className="block py-2 font-medium"
-//                   style={{ color: isDark ? "#FFFFFF" : "#374151" }}
-//                 >
-//                   Contact
-//                 </div>
-//               </Link>
-//               <button
-//                 className="w-full px-5 py-2 rounded-full text-sm font-medium shadow-sm mt-4"
-//                 onClick={() => setIsOpen(false)}
-//                 style={{
-//                   backgroundColor: "#10B981",
-//                   color: "#FFFFFF",
-//                 }}
-//               >
-//                 Get in touch
 //               </button>
 //             </div>
 //           </motion.div>

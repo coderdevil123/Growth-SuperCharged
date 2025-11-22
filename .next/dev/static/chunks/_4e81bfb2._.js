@@ -1,67 +1,9 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
-"[project]/components/Navbar/Logo.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/components/Navbar/Logo.tsx [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>__TURBOPACK__default__export__
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
-;
-;
-;
-const Logo = ({ isDark })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: "/",
-        className: "flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 rounded",
-        "aria-label": "Go to homepage",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                whileHover: {
-                    scale: 1.05
-                },
-                className: "w-10 h-10 rounded-md flex items-center justify-center font-bold text-xs shadow-lg transition-all",
-                style: {
-                    backgroundColor: isDark ? '#10B981' : '#0F172A',
-                    color: '#FFFFFF'
-                },
-                children: "GSC"
-            }, void 0, false, {
-                fileName: "[project]/components/Navbar/Logo.tsx",
-                lineNumber: 16,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                whileHover: {
-                    scale: 1.02
-                },
-                className: "text-sm tracking-[0.2em] uppercase font-normal hidden lg:block group-hover:text-emerald-400 transition-colors duration-200",
-                style: {
-                    fontFamily: "'Azonix', sans-serif",
-                    color: isDark ? '#FFFFFF' : '#0F172A'
-                },
-                children: "Growth SuperCharged"
-            }, void 0, false, {
-                fileName: "[project]/components/Navbar/Logo.tsx",
-                lineNumber: 26,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true, {
-        fileName: "[project]/components/Navbar/Logo.tsx",
-        lineNumber: 11,
-        columnNumber: 5
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_c = Logo;
-const __TURBOPACK__default__export__ = Logo;
-var _c;
-__turbopack_context__.k.register(_c, "Logo");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
+const e = new Error("Could not parse module '[project]/components/Navbar/Logo.tsx'\n\nExpected ';', '}' or <eof>");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/Navbar/NavLinksWithDropdown.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
